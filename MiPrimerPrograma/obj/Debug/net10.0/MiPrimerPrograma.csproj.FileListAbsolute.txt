@@ -1,0 +1,14 @@
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\bin\Debug\net10.0\MiPrimerPrograma.exe
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\bin\Debug\net10.0\MiPrimerPrograma.deps.json
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\bin\Debug\net10.0\MiPrimerPrograma.runtimeconfig.json
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\bin\Debug\net10.0\MiPrimerPrograma.dll
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\bin\Debug\net10.0\MiPrimerPrograma.pdb
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.AssemblyInfoInputs.cache
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.AssemblyInfo.cs
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.csproj.CoreCompileInputs.cache
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.dll
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\refint\MiPrimerPrograma.dll
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.pdb
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.genruntimeconfig.cache
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\ref\MiPrimerPrograma.dll
