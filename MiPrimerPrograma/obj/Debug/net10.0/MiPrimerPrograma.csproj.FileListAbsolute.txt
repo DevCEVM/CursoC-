@@ -12,3 +12,4 @@ C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\r
 C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.pdb
 C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.genruntimeconfig.cache
 C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\ref\MiPrimerPrograma.dll
+C:\Users\auditoria04.HRSJ\Documents\CursoC#\MiPrimerPrograma\obj\Debug\net10.0\MiPrimerPrograma.sourcelink.json
