@@ -20,6 +20,7 @@
 
             // Console.ReadLine();
 
+
             // Clase 2: Variables
 
             int x; // Declaración
@@ -41,6 +42,21 @@
             Console.WriteLine("Hola " + nombre + "!");
             string usuario = simbolo + nombre;
             Console.WriteLine("Tu nombre de usuario es: " + usuario);
+
+
+            // Clase 3: Constantes
+
+            /*Es un valor inmutable que se define al compilar el programa 
+             * y que no cambia jamás mientras el programa se está ejecutando 
+             * y ayuda a agregar seguridad y estabilidad al código porque 
+             * nadie puede alterar esos valores por accidente o apropósito*/
+            const double PI = 3.14159; 
+            Console.WriteLine(PI);
+
+
+            // Clase 4: Conversión de tipos
+
+
 
         }
     }
