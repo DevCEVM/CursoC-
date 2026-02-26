@@ -20,9 +20,9 @@
 
             // Console.ReadLine();
 
-
-            // Clase 2: Variables
             Console.WriteLine("---------------------------------------------");
+            // Clase 2: Variables
+
             int x; // Declaración
             x = 123; // Inicializar
             Console.WriteLine(x);
@@ -43,9 +43,9 @@
             string usuario = simbolo + nombre;
             Console.WriteLine("Tu nombre de usuario es: " + usuario);
 
-
-            // Clase 3: Constantes
             Console.WriteLine("---------------------------------------------");
+            // Clase 3: Constantes
+
             /*Es un valor inmutable que se define al compilar el programa 
              * y que no cambia jamás mientras el programa se está ejecutando 
              * y ayuda a agregar seguridad y estabilidad al código porque 
@@ -53,9 +53,9 @@
             const double PI = 3.14159; 
             Console.WriteLine(PI);
 
-
-            // Clase 4: Conversión de tipos
             Console.WriteLine("---------------------------------------------");
+            // Clase 4: Conversión de tipos
+
             double a = 3.14;
             int b = Convert.ToInt32(a);
             Console.WriteLine(b);
@@ -87,16 +87,36 @@
             Console.WriteLine(k.GetType());
             Console.WriteLine(l.GetType());
 
-            // Clase 5: Entrada de usuario
             Console.WriteLine("---------------------------------------------");
-
+            // Clase 5: Entrada de usuario
+            
             Console.Write("Escribe tu nombre: ");
             string name = Console.ReadLine();
             Console.Write("Escribe tu edad: ");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hola " + name);
             Console.WriteLine("Tienes " + age + " Años");
+            
+            // Clase 6: Aritmetica Básica
+            Console.WriteLine("---------------------------------------------");
 
+            int amigos = 5;
+            amigos = amigos + 1;
+            amigos += 1; //forma abrebiada de la anterior
+            amigos++; //suma 1 y sólo 1
+            Console.WriteLine(amigos);
+            amigos = amigos - 1;
+            amigos -= 1; //forma abrebiada de la anterior
+            amigos--; //resta 1 y sólo 1
+            Console.WriteLine(amigos);
+            amigos = amigos * 2;
+            amigos *= 2;
+            Console.WriteLine(amigos);
+            amigos = amigos / 2; 
+            amigos /= 2; //trucha aquí porque esto regresa un int y no un double
+            Console.WriteLine(amigos);
+            int resto = amigos % 2; //esto te puede servir para saber si un número es par o inpar
+            Console.WriteLine(resto);
 
 
         }
