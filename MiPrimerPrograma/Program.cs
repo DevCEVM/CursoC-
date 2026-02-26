@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            // Clase 1: tipos de salida
+
             Console.Write("Hola Mundo!");
             Console.WriteLine("Cristopher Villegas");
             Console.Beep();
@@ -17,6 +19,8 @@
             Console.WriteLine("Mi nombre es: \nCristopher");
 
             // Console.ReadLine();
+
+            // Clase 2: Variables
 
             int x; // Declaración
             x = 123; // Inicializar
