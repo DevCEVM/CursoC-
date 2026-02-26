@@ -87,6 +87,18 @@
             Console.WriteLine(k.GetType());
             Console.WriteLine(l.GetType());
 
+            // Clase 5: Entrada de usuario
+            Console.WriteLine("---------------------------------------------");
+
+            Console.Write("Escribe tu nombre: ");
+            string name = Console.ReadLine();
+            Console.Write("Escribe tu edad: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hola " + name);
+            Console.WriteLine("Tienes " + age + " Años");
+
+
+
         }
     }
 }
