@@ -22,7 +22,7 @@
 
 
             // Clase 2: Variables
-
+            Console.WriteLine("---------------------------------------------");
             int x; // Declaración
             x = 123; // Inicializar
             Console.WriteLine(x);
@@ -45,7 +45,7 @@
 
 
             // Clase 3: Constantes
-
+            Console.WriteLine("---------------------------------------------");
             /*Es un valor inmutable que se define al compilar el programa 
              * y que no cambia jamás mientras el programa se está ejecutando 
              * y ayuda a agregar seguridad y estabilidad al código porque 
@@ -55,8 +55,37 @@
 
 
             // Clase 4: Conversión de tipos
-
-
+            Console.WriteLine("---------------------------------------------");
+            double a = 3.14;
+            int b = Convert.ToInt32(a);
+            Console.WriteLine(b);
+            Console.WriteLine(a.GetType());
+            Console.WriteLine(b.GetType());
+            int c = 123;
+            double d = Convert.ToDouble(c) + .1;
+            Console.WriteLine(d);
+            Console.WriteLine(c.GetType());
+            Console.WriteLine(d.GetType());
+            int e = 321;
+            string f = Convert.ToString(e);
+            Console.WriteLine(f);
+            Console.WriteLine(e.GetType());
+            Console.WriteLine(f.GetType());
+            string g = "$";
+            char h = Convert.ToChar(g);
+            Console.WriteLine(h);
+            Console.WriteLine(g.GetType());
+            Console.WriteLine(h.GetType());
+            string i = "true";
+            bool j = Convert.ToBoolean(i);
+            Console.WriteLine(j);
+            Console.WriteLine(i.GetType());
+            Console.WriteLine(j.GetType());
+            int k = -150;
+            bool l = Convert.ToBoolean(k); //cualquier número diferente de 0 será true, sólo 0 será false
+            Console.WriteLine(l);
+            Console.WriteLine(k.GetType());
+            Console.WriteLine(l.GetType());
 
         }
     }
