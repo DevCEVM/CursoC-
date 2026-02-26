@@ -34,6 +34,10 @@
             char simbolo = '@';
             Console.WriteLine("Tu símbolo es: " + simbolo);
             string nombre = "Cristopher";
+            Console.WriteLine("Hola " + nombre + "!");
+            string usuario = simbolo + nombre;
+            Console.WriteLine("Tu nombre de usuario es: " + usuario);
+
         }
     }
 }
