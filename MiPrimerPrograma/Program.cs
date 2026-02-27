@@ -118,6 +118,14 @@
             int resto = amigos % 2; //esto te puede servir para saber si un número es par o inpar
             Console.WriteLine(resto);
 
+            // Clase 7: Clase Math
+            Console.WriteLine("---------------------------------------------");
+
+            double m = 3;
+            double n = Math.Pow(m, 3);
+
+            Console.WriteLine();
+
 
         }
     }
