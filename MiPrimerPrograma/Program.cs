@@ -122,11 +122,29 @@
             Console.WriteLine("---------------------------------------------");
 
             double m = 3;
-            double n = Math.Pow(m, 3);
+            double n = Math.Pow(m, 27); // Esto eleva a la potencia que le pongas
+            Console.WriteLine(n);
+            double o = 7;
+            double p = Math.Pow(m, n); // La potencia puede ser una variable también
+            Console.WriteLine(p);
+            double q = Math.Sqrt(o); // Esto saca la raíz cuadrada
+            Console.WriteLine(q);
+            o = -7.35;
+            double r = Math.Abs(o); // Esto te trae un número absoluto, es útil para convertir números negativos a positivos
+            Console.WriteLine(r);
+            double s = Math.Round(o); // Esto redondea
+            Console.WriteLine(s);
+            double t = Math.Ceiling(o); // Esto redondea hacia arriba sin importar el decimal
+            Console.WriteLine(t);
+            double u = Math.Floor(o); // Esto redondea hacia abajo sin importar el decimal
+            Console.WriteLine(u);
+            double v = Math.Max(m, o); // Esto me dice el número más alto
+            Console.WriteLine(v);
+            double w = Math.Min(m, o); //Esto me dice el número más bajo
+            Console.WriteLine(w);
 
-            Console.WriteLine();
-
-
+            // Clase 8: Números Aleatorios
+            Console.WriteLine("---------------------------------------------");
         }
     }
 }
