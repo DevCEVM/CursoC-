@@ -1,4 +1,6 @@
-﻿namespace MiPrimerPrograma
+﻿using System.Security.Cryptography;
+
+namespace MiPrimerPrograma
 {
     internal class Program
     {
@@ -145,6 +147,23 @@
 
             // Clase 8: Números Aleatorios
             Console.WriteLine("---------------------------------------------");
+
+            Random random = new Random();
+
+            int num = random.Next(0,6) + 1; //esto te da un número random entre 1 y más de 2mil millones, así que ponle un rango de números para que no se haga mucho desmadre
+            Console.WriteLine(num);
+            double numb = random.NextDouble(); // Esto te da un número entre 0 y 1 con 16 decimales
+            Console.WriteLine(numb);
+
+            // si necesito tirar 3 dados de 6 no necesito crear más objetos, con el de la linea 151 es suficiente:
+            int num1 = random.Next(1,7);
+            int num2 = random.Next(1,7);
+            int num3 = random.Next(1,7);
+            Console.WriteLine(num1);
+            Console.WriteLine(num2);
+            Console.WriteLine(num3);
+
+
         }
     }
 }
